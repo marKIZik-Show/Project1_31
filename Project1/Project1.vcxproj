@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Comercial.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="FreeSoft.cpp" />
     <ClCompile Include="main.cpp" />
@@ -134,6 +136,8 @@
     <ClCompile Include="Soft.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="Comercial.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="FreeSoft.h" />
     <ClInclude Include="resource.h" />

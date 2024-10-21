@@ -2,6 +2,7 @@
 #include "Date.h"
 #include <string>
 #include <iostream>
+#include <fstream>
 using namespace std;
 class Soft
 {
@@ -21,5 +22,7 @@ public:
 
 	virtual void showInfo() const = 0;
 	virtual bool isCheck() const = 0;
+
+	virtual void load(ifstream& file) = 0;
 };
 
